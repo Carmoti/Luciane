@@ -1,0 +1,411 @@
+header {
+      display: flex; /* Coloca os elementos em linha */
+      justify-content: space-between; /* Logo na esquerda, botões na direita */
+      align-items: center; /* Centraliza verticalmente */
+      height: 150px;
+      background-image: url('banner.jpeg');
+      background-size: cover;
+      background-position: center;
+      padding: 0 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* LOGO */
+    .logo {
+    
+      height: 16%;
+      width: 16%;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-left: 20px;
+    }
+
+    /* ALINHAMENTO DA LOGO */
+    .header-esquerda {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+    }
+
+    /* ALINHAMENTO DOS BOTÕES */
+    .header-direita {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px; /* Espaço entre os botões */
+    }
+
+    /* BOTÕES */
+    button {
+      padding: 10px 20px;
+      border: none;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 50px;
+      cursor: pointer;
+      transition: 0.3s;
+      color: rgba(3, 74, 50, 0.815);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    button:hover {
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #eeebebeb;
+      padding: 20px;
+      text-align: center;
+      margin-top: 0px;
+    }
+
+    a {
+  color: inherit; /* Mantém a mesma cor do texto do pai */
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+
+body{
+background-color: rgba(247, 241, 233, 0.942);
+
+}
+
+.main1{
+  background-color: rgba(247, 241, 233, 0.527);
+  display: flex;
+  flex-direction: row; /* já é padrão, mas deixamos claro */
+  align-items: center;
+  justify-content: center;
+  gap: 100px; /* espaço entre imagem e texto */
+  padding: 20px;
+  color: rgba(3, 74, 50, 0.815);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.luciene {
+  width: 300px;
+  height: 400px;
+  /*object-fit: cover;*/
+  border-radius: 1%;
+}
+
+.main2{
+  background-color: rgba(247, 241, 233, 0.366);
+  display:block;
+  
+  padding: 20px;
+  color: rgba(2, 51, 35, 0.815);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h1sobre{
+  text-align: center;
+  font-size: 20px;
+
+letter-spacing:6px; /*espaçamento entre as letras*/
+
+text-shadow:5px; /*sombra para dar profundidade*/
+
+font-weight:20px; /*espessura da fonte*/
+
+text-transform: capitalize; /*tipo de capitalização (ex: maiúsculas)*/
+
+font-family: Georgia, 'Times New Roman', Times, serif; /*tipo de fonte (para um toque personalizado)*/
+}
+
+
+.sobre{
+  display: flex;
+  flex-direction: row; /* já é padrão, mas deixamos claro */
+  align-items: center;
+  justify-content: center;
+  gap: 100px; /* espaço entre imagem e texto */
+  padding: 20px;
+  color: rgba(3, 74, 50, 0.815);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing:2px; /*espaçamento entre as letras*/
+text-shadow:5px; /*sombra para dar profundidade*/
+font-weight:10px; /*espessura da fonte*/
+
+}
+
+.luciene2 {
+  width: 300px;
+  height: 350px;
+  /*object-fit: cover;*/
+  border-radius: 1%;
+}
+
+
+
+.abordagem{
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f5f0;
+  color: #232e1d; 
+  
+}
+
+
+
+.abordagem h1 {
+  font-size: 42px;
+  margin-bottom: 50px;
+  color: rgba(3, 74, 50, 0.979);;
+}
+
+.abordagem-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  color: rgb(3, 74, 50);;
+}
+
+.bloco {
+  max-width: 280px;
+}
+
+.bloco h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.bloco p {
+  font-size: 16px;
+  color: rgba(3, 74, 50, 0.815);
+}
+
+.final {
+  font-style: italic;
+  margin-top: 60px;
+  font-size: 18px;
+  color: rgba(3, 74, 50, 0.87);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-02{
+  background-color: rgba(240, 227, 211, 0.935);
+  
+  padding: 20px;
+  color: rgba(2, 51, 35, 0.815);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+
+.servicos{
+    text-align: left;
+  display: flex;
+  flex-direction: row; /* já é padrão, mas deixamos claro */
+  align-items: center;
+  justify-content: center;
+  gap: 50px; /* espaço entre imagem e texto */
+  padding: 20px;
+  color: rgba(3, 74, 50, 0.815);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+text-shadow:5px; /*sombra para dar profundidade*/
+font-weight:10px; /*espessura da fonte*/
+text-transform: capitalize;
+}
+
+.main-03{
+   background-color: rgba(246, 236, 223, 0.952);
+  padding: 20px;
+  color: rgba(2, 51, 35, 0.815);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+
+
+}
+
+
+.antesdepois{
+ 
+  display: flex;
+  flex-direction: row; /* já é padrão, mas deixamos claro */
+  align-items: center;
+  justify-content: center;
+  gap: 5px; /* espaço entre imagem e texto */
+  padding: 20px;
+  color: rgba(3, 74, 50, 0.815);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.main-04{
+    
+  background-color: rgb(249, 239, 225);
+  display:block;
+  
+  padding: 20px;
+  color: rgba(2, 51, 35, 0.815);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.diferencial{
+  display: flex;
+  flex-direction: row; /* já é padrão, mas deixamos claro */
+  align-items: center;
+  justify-content: center;
+  gap: 100px; /* espaço entre imagem e texto */
+  padding: 20px;
+  color: rgba(3, 74, 50, 0.815);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing:2px; /*espaçamento entre as letras*/
+text-shadow:5px; /*sombra para dar profundidade*/
+font-weight:10px; /*espessura da fonte*/
+text-transform: capitalize;
+}
+
+.luciene3 {
+  width: 300px;
+  height: 350px;
+  /*object-fit: cover;*/
+  border-radius: 1%;
+}
+
+.main-05{
+    background-color: rgba(247, 241, 233, 0.846);}
+
+.main-07{
+    
+  background-color: rgba(231, 224, 214, 0.839);
+  
+  padding: 20px;
+  color: rgba(2, 51, 35, 0.815);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+
+.difeplan{
+    text-align: left;
+  display: flex;
+  flex-direction: row; /* já é padrão, mas deixamos claro */
+  align-items: center;
+  justify-content: center;
+  gap: 100px; /* espaço entre imagem e texto */
+  padding: 20px;
+  color: rgba(3, 74, 50, 0.815);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+text-shadow:5px; /*sombra para dar profundidade*/
+font-weight:10px; /*espessura da fonte*/
+text-transform: capitalize;
+
+
+
+}
+
+
+
+
+.titulo-personalizado {
+      color: rgba(3, 74, 50, 0.815);
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-align: center;
+
+letter-spacing:6px; /*espaçamento entre as letras*/
+
+text-shadow:5px; /*sombra para dar profundidade*/
+
+font-weight:20px; /*espessura da fonte*/
+
+text-transform: capitalize; /*tipo de capitalização (ex: maiúsculas)*/
+
+font-family: Georgia, 'Times New Roman', Times, serif; /*tipo de fonte (para um toque personalizado)*/
+}
+
+    
+
+    .paragrafo-personalizado,
+    .texto-personalizado,
+    .lista-personalizada li,
+    .etapa p,
+    .descricao-servico p,
+    .frase-personalizada {
+      color: rgba(3, 74, 50, 0.815);
+      font-size: 1.1em;
+    }
+
+    .lista-personalizada {
+      list-style: disc;
+      
+    }
+
+    .secao-imagens {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .secao-imagens img {
+      width: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .etapas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 30px;
+    }
+
+    .etapa h3 {
+      margin: 0;
+      font-size: 1.3em;
+      color: rgba(3, 74, 50, 0.815);
+    }
+
+    .etapa strong {
+      display: block;
+      margin: 5px 0;
+      font-size: 1.2em;
+      color: rgba(3, 74, 50, 0.815);
+    }
+
+    .descricao-servico {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+
+
+  font-size: 20px;
+letter-spacing:2px; /*espaçamento entre as letras*/
+text-shadow:5px; /*sombra para dar profundidade*/
+font-weight:5px; /*espessura da fonte*/
+font-family: Georgia, 'Times New Roman', Times, serif;
+      
+    }
+
+    .frase-personalizada {
+      font-style: italic;
+      text-align: right;
+    }
